@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander&display=swap');
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+h1 {
+  border-left: 10px solid red;
+  padding-left: 10px;
+  background-color: #ffffff80;
+  font-family: 'Grandstander', cursive;
+  text-align: left;
+}
+a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 5px;
+  border: 2px solid #06b7d8;
+  border-radius: 5px;
+  background-color: white;
+  color: #06b7d8;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
+  margin-left: 10px;
+}
+a:hover {
+  background-color: #1d3461;
+  border: 2px solid #1d3461;
+  color: white;
+}
+.logo {
+  display: inline-block;
+  color: #1F6F8B;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 2.2rem;
+  font-family: 'Marck Script', cursive;
+}
+.linkler {
+  float: right;
+  height: 75px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-fluid {
+  text-align: left;
+  background-color: #71c9ce;
+  color: white;
+  font-size: 2rem;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.arkaplan-ustkisim {
+  background-color: #f9f7f7;
+}
+.sol-sag-padding {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.container {
+  background-color: #cbf1f5;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.profil-resmi {
+  width: 150px;
+  height: 150px;
+  border-radius: 0 40px 40px 0;
+  border: 2px dashed;
+}
+.hakkimda {
+  border: solid;
+  border-radius: 20px;
+  padding: 2%;
+  background-color: #cffffe;
+}
+.hakkimda-yazi {
+  padding-left: 2rem;
+}
+.hobilerim {
+  border-radius: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /*margin: 2% 0; */
+  border: 3px dashed red;
+  padding: 2%;
+  background-color: #f9f7d9;
+}
+.hobilerim-yazi {
+  padding-right: 2rem;
+}
+.hobi-resmi {
+  border-radius: 40px 0 0 40px;
+  border: 2px dashed;
+  width: 150px;
+  height: 150px;
+}
+.bildigim-diller {
+  border-radius: 20px;
+  border: 3px solid;
+  padding: 2%;
+  background-color: #fce2ce;
+}
+.bildigim-diller-yazi {
+  padding-left: 2rem;
+}
+.bildigim-diller-resmi {
+  border-radius: 0 40px 40px 0;
+  border: 2px dashed;
+  width: 150px;
+  height: 150px;
+}
